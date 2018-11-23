@@ -155,3 +155,7 @@ a.text-white:hover {
     background-color: #ffffff;
     color: #232323;
 }
+
+.mbr-bold{
+    font-weight: 700;
+}
