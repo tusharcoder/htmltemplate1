@@ -121,10 +121,14 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #000 ;
+    background-color: rgb(204, 204, 204);
     z-index: 0;
+    opacity: 0.09;
 }
 
+.mbr-fullscreen .mbr-overlay{
+    min-height: 100vh;
+}
 a.text-white:hover {
     color: #b3b3b3 !important;
 }
@@ -158,4 +162,9 @@ a.text-white:hover {
 
 .mbr-bold{
     font-weight: 700;
+}
+
+.display-1{
+    font-size: 4.5rem;
+    font-family: 'Poppins', sans-serif;
 }
