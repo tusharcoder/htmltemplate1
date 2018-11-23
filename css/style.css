@@ -132,3 +132,18 @@
         background-color: #fe525b;
     }
 }
+
+.header10 .mbr-section-text{
+    letter-spacing: 0.03rem;
+    color: #232323;
+}
+
+.mbr-shop-section .mbr-section-btn{
+    color: #ffffff;
+    background-color: #fe525b;
+    border: none;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
