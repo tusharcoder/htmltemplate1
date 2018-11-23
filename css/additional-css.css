@@ -58,7 +58,7 @@
 .mbr-fullscreen{
     display: -webkit-flex;
     -webkit-align-items: center;
-    min-height: 50vh;
+    min-height: 100vh;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }

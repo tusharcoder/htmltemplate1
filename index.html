@@ -83,35 +83,7 @@
 <!--header -->
 <section class="header10 mbr-fullscreen">
     <div class="container-fluid">
-        <div id="jarallax-container-0" style="    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    pointer-events: none;
-    visibility: hidden;
-    z-index: -100;">
-            <div class="jarallax" style="background-position: 50% 50%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-image: url('images/background10.jpg');
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 1440px;
-    height: auto;
-    overflow: hidden;
-    pointer-events: none;
-    margin-left: 0px;
-    margin-top: -346.25px;
-    visibility: visible;
-    transform: translate3d(0px, 48.8344px, 0px);">
-                <img class="jarallax-img" src="images/background10.jpg" alt="">
-            </div>
-        </div>
     </div>
-
 </section>
 <!--header-->
 <!--content-->
@@ -327,5 +299,27 @@
 
 <!-- Include it if you want to parallax any element -->
 <script src="https://unpkg.com/jarallax@1.10/dist/jarallax-element.min.js"></script>
+
+<script>
+    $('.header10').jarallax({
+
+        // parallax effect speed. 0.0 - 1.0
+        speed             : 0.4,
+
+        // path to your parallax image
+        imgSrc            : 'images/background10.jpg',
+
+        // width & height of your parallax image
+        imgWidth          : null,
+        imgHeight         : null,
+
+        // enable transformations for effect if supported.
+        enableTransform   : true,
+
+        // z-index of parallax container.
+        zIndex            : -100
+
+    })
+</script>
 </body>
 </html>
