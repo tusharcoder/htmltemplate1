@@ -1,0 +1,157 @@
+.navbar-buttons{
+    text-align: center;
+}
+.navbar .navbar-buttons{
+    margin-left: 1.5rem;
+}
+@media only screen and (max-width: 992px){
+
+    .navbar .navbar-buttons{
+        margin-left: 0rem;
+    }
+}
+.mbr-section-btn {
+    border-radius: 100px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 1.2rem !important;
+
+}
+.navbar .navbar-expand-lg{
+    display: flex;
+}
+
+.navbar .navbar-collapse{
+    justify-content: flex-end;
+}
+
+.mbr-light{
+    font-weight: 300;
+}
+
+.mbr-bold{
+    font-weight: 700;
+}
+
+.display-5{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.5rem;
+}
+
+.display-2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.display-4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.mbr-section-title{
+    font-style: normal;
+    line-height: 1.2;
+}
+.mbr-section-subtitle{
+    line-height: 1.3;
+}
+.mbr-fullscreen{
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    min-height: 50vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.header10{
+    position: relative;
+}
+#jarallax-container-0{
+    clip: rect(0, 1440px, 431.78125px, 0);
+}
+
+.mbr-gallery-item{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.mbr-gallery-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.mbr-gallery{
+ padding: 0 20px 0 20px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.mbr-gallery-section{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.mbr-text{
+    color: #767676;
+}
+
+.cid-qz2YU1tayr {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("../images/mbr-7-1620x1080.jpg");
+}
+
+.cid-qz2YU1tayr ul{
+    list-style: none;
+}
+
+.cid-qz2YU1tayr .first-column li{
+
+    margin-bottom: 1rem;
+}
+
+.cid-qz2YU1tayr .first-column li a{
+
+    text-decoration: none;
+}
+
+.mbr-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000 ;
+    z-index: 0;
+}
+
+a.text-white:hover {
+    color: #b3b3b3 !important;
+}
+
+.second-column ul{
+    list-style: none;
+}
+
+.second-column li{
+    margin-bottom: 1rem;
+}
+
+.second-column li a {
+    text-decoration: none;
+}
+
+.cid-qz2YU1tayr .mbr-section-title {
+    color: #ffffff;
+    text-align: left;
+}
+
+.display-7{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.1rem;
+}
+
+.menu .navbar-buttons .mbr-section-btn:hover{
+    background-color: #ffffff;
+    color: #232323;
+}

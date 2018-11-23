@@ -1,0 +1,105 @@
+.align-center{
+    text-align: center;
+}
+.cid-qz2YaO6x06{
+    padding-top: 90px;
+    padding-bottom: 0;
+    background-color: #ffffff;
+}
+
+.card-img{
+    text-align: left;
+}
+
+.card-img span{
+
+    font-size: 65px;
+    background: linear-gradient(45deg,#ffa0a4,#a38dfd);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.card-title{
+    color: #ffa0a4;
+}
+
+.card{
+    border: none;
+}
+
+
+
+.cid-qz2YU1tayr h3.mbr-section-title span{
+    display: block;
+}
+
+.cid-qz2YU1tayr .card-support li{
+    display: inline-block;
+    margin-right: 0.4rem;
+}
+
+.cid-qz2YU1tayr .card-support {
+    text-align: left;
+    padding-left: 0;
+    margin-top: 24px;
+    margin-bottom: 37px;
+}
+
+.menu .navbar{
+    background-color: #232323;
+    color: white;
+}
+
+.menu .navbar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu .navbar .dropdown-menu{
+    background-color: #232323;
+    color: #ffffff;
+}
+
+.menu .nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-dropdown .nav-link{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.menu .navbar-nav li{
+    margin: auto;
+}
+
+.menu .icons-menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.menu .navbar-nav{
+    margin-right: 2rem;
+}
+
+@media only screen and (max-width: 992px){
+    .menu .navbar-nav{
+        margin-right: 0;
+    }
+}
+.menu .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu .navbar-brand .navbar-logo{
+    margin-right: 0.8rem;
+}
+
+.menu .navbar-brand{
+    vertical-align: middle;
+}
